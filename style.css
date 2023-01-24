@@ -66,3 +66,12 @@ input[type=submit]{
 input[type=reset]:hover{
     background:#444;
 }
+
+.form1{
+    padding-top: 50px;
+
+}
+
+.form2{
+    padding-top:50px;
+}

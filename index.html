@@ -13,6 +13,8 @@
 
 <div class="container">
 <div id="content"></div>
+
+ <!--  <div class="form1">
 <form action="#" method="post"  onsubmit="return envoie()">
 
     <input name="Text1" type="text" onfocus="selected()"/><br/>
@@ -22,8 +24,20 @@
     <input name="Submit1" type="submit" value="submit"/>
     <a href="tuto8.html" onmouseover="alert('Retourner au tuto 8'); return false"></a>
 </form>
+    </div>-->
 
+    <div class="form2">
+<form id="inscription">
+    <input type="text" name="pseudo" placeholder="pseudo" id="pseudo"><br>
+    <input type="email" name="email" placeholder="email" id="email"><br>
+    <input type="email" name="email-confirmation" placeholder="confirmation de l'email" id="email2"><br>
+    <input type="password" name="mdp" placeholder="mot de passe" id="mdp"><br>
+    <input type="submit" value="inscription">
+</form>
 
+   <p style="color:red;" id="erreur"></p>
+
+    </div>
     </div>
 </div>
 </body>
